@@ -1,0 +1,17 @@
+Hexview V1.06.04  Release Notes
+
+This document contains release notes for the latest version of Hexview.
+It summarizes all changes that are not contained in the document.
+
+
+V1.06.04 contains the following additional features:
+====================================================
+Support for Access parameter within Fiat parameter export.
+
+
+V1.06.03 contains the following additional features:
+====================================================
+No warning in silent mode, if large segments shall be generated.
+
+  
+  
