@@ -1,0 +1,22 @@
+<testmodule title="XML Test Module" version="1.1">
+  <description>XML Test Module</description>
+  <preparation>
+	<capltestfunction name="test_01" title="preparation标签下的无参数调用"></capltestfunction>
+  </preparation>
+  <testgroup title="UDS">			
+	<capltestcase name="TC_0001" />
+	
+	<testcase title="TC_0002" ident="TC_0002">	
+		  <capltestfunction name="test_02" title="testcase标签下的带参数调用">
+				<caplparam name="para1" type="int">0x01</caplparam>
+		  </capltestfunction>
+		  				 
+	</testcase>
+	
+	</testgroup>
+  <completion>
+	  <capltestfunction name="test_03" title="completion标签下的带参数调用">
+			<caplparam name="para1" type="string">hello</caplparam>
+	  </capltestfunction>
+  </completion>
+</testmodule>
